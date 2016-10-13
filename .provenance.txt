@@ -1,0 +1,20 @@
+# generator info
+name: Spring Boot Rest Microservice
+group: atomist-project-templates
+artifact: spring-rest-service
+version: 3.1.1
+
+# backing git repo
+repo: git@github.com:atomist-project-templates/spring-rest-service.git
+branch: master
+sha: 98fc6284347d911ec117faa5b387e4b06ae463d7
+
+# parameter values
+project_name: spring-boot-atomist
+artifact_id: spring-boot-atomist
+group_id: bjornoy
+version: 0.0.1-SNAPSHOT
+description: Sprint Boot Atomist example
+root_package: no.bjornoy
+service_class_name: RandomNumberService
+
