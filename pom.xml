@@ -74,7 +74,7 @@
 				<artifactId>docker-maven-plugin</artifactId>
 				<version>0.4.11</version>
 				<configuration>
-					<imageName>docker-test/${project.name}</imageName>
+					<imageName>fredrikbjornoy/${project.name}</imageName>
 					<dockerDirectory>src/main/docker</dockerDirectory>
 					<resources>
 						<resource>
@@ -87,6 +87,7 @@
 					<imageTags>
 						<imageTag>${project.version}</imageTag>
 					</imageTags>
+					<serverId>docker-hub</serverId>
 				</configuration>
 			</plugin>
         	<plugin>

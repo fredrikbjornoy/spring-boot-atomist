@@ -1,0 +1,17 @@
+# OS X
+.DS_STORE
+
+# Maven
+target/
+generated/
+
+# IntelliJ
+*.iml
+.idea/
+
+# Project
+*.log
+
+# SonarLint
+*.sonarlint/
+.sonar_lock

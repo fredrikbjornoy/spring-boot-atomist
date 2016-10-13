@@ -32,5 +32,5 @@ branch: master
 sha: 4ed046fdc66fd8b12941b6b52c0fc06c11f929d5
 
 # parameter values
-dockerRepository: docker-test
+dockerRepository: fredrikbjornoy
 
